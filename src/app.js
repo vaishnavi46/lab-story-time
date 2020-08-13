@@ -137,15 +137,17 @@ return decision;
 //Take all of Lily's strategies and concatenate them to a single var
 //Seperate the strategies by a single space
 //Return the length of the complete strategy
-var sum=consolekaren("phamper" ,"comforting","make_her_laugh","diverting_her_mind","playing");
-console.log(sum);
+var sum=["phampers" ,"comforting","make_her_laugh","diverting_her_mind","playing"];
+var finalresult;
+finalresult=consolekaren(sum);
+console.log(finalresult);
 function consolekaren(strategies)
 {
     var sum=0;
-    // console.log(strategies);
-    for(let i=0;i<=strategies.length;i++)
+     console.log(strategies.length);
+    for(let i=0;i<strategies.length;i++)
     {
-        sum=sum+strategies.length;
+        sum=sum+strategies[i].length;
         
     }
     // console.log(sum);
