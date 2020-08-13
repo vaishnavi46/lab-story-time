@@ -2,7 +2,7 @@
 //We've got some basic info about Karen's home
 //Debug the type of data provided
 //Return the types concatenated in a single variable
-var info=moreabouthome("bangalore",2,true);
+var info=moreabouthome("bangalore",5,true);
 console.log(info);
 function moreabouthome(address,distfromtown,hasneighbour)
 {
@@ -137,3 +137,17 @@ return decision;
 //Take all of Lily's strategies and concatenate them to a single var
 //Seperate the strategies by a single space
 //Return the length of the complete strategy
+var sum=consolekaren("phamper" ,"comforting","make_her_laugh","diverting_her_mind","playing");
+console.log(sum);
+function consolekaren(strategies)
+{
+    var sum=0;
+    // console.log(strategies);
+    for(let i=0;i<=strategies.length;i++)
+    {
+        sum=sum+strategies.length;
+        
+    }
+    // console.log(sum);
+    return sum;
+}
